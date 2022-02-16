@@ -1,0 +1,114 @@
+body {
+    background-color: lightskyblue;
+    font-family: monospace;
+}
+
+* {
+    margin: 10;
+    padding: 20;   
+}
+
+
+nav li {
+    display: inline-block;
+    /* text-align: center; */
+}
+
+
+nav >ul {
+    background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+
+
+/* div li (is for the week 1-8- study lists */
+div li {
+    margin: 0;
+}
+
+/* div h1 (is for the heading on top "My Secong HTML Page") */
+div h1 {
+    margin: 0px;
+    text-align: center;
+    color: rgb(189, 10, 10);
+    background-color: black;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+/* h3 (For First HTML Page click Here) The color blue not working  & text-align center now working*/
+h3 {
+    text-align: center;
+    background-color: yellowgreen;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    
+}
+
+
+/*h2 is for "Table" title- what is the > sign before h2? (>h2)??? */
+div >h2 {
+    margin: 20px;
+    font-size: xx-large;
+    padding: 0px;
+}
+
+/*  nav a is for the Navigation part but the text-align: center  & font-size are not working */
+ nav a {
+    font-size: large;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav >ul >li {
+    text-align: center;
+}
+
+/*  ol why doesn't have a number list??? those 4 lists - Lorem Ispum list....*/
+ol {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* below is the Table info */
+table {
+    table-layout: fixed;
+    width: 50%;
+    border: 1px;
+    text-align: center;
+}
+
+
+td {
+   color: blue;
+   background-color: orchid;
+}
+
+th {
+    background-color: green;
+    font-size: x-large;
+    font-weight: normal;
+    color: white;
+}
+
+table, th, td {
+    border: 1px black solid;
+    text-align: center;
+    height: 20px;
+}
+
+/* section h2 is for the last two paragraphs */
+section h2 {
+color: maroon;
+margin-left: 30px;
+}

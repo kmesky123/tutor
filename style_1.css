@@ -1,0 +1,145 @@
+body {
+    background-color: ivory;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: red;
+    text-decoration: none;
+}
+
+/* h2 (title in the container-First Picture, Secong Pic..){
+}*/
+h2 {
+    font-size: xx-large;
+    font-family: monospace;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+
+
+
+
+/* ????nav h4 (For the Second HTML Page click  Here)????? the color is not working??????? */
+h4 {
+    background-color: rgb(161, 224, 14);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: blue;
+}
+
+/* nav >h1 (My First HTML Page- The Heading) */
+nav >h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: red;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+
+
+
+nav >ul {
+    background-color: blue
+}
+
+nav li {
+    display: inline-block;
+}
+li {
+    margin: 10px;
+}
+nav {
+    background-color: #ff99cc;
+}
+/* <hr /> */ 
+/* <br> */
+
+div {
+    text-align: center;
+    color: red;
+    font-weight: 100%;
+    margin: 10px;
+}
+
+
+#img_center {
+    text-align: center;
+}
+
+/* Below is Container.....  */
+#img1_cont {
+    width: 100%;
+    border: red solid 10px;
+    background-color: blue;
+    height: 500px;
+    margin: 0 auto;
+    
+}
+#img2_cont {
+    width: 100%;
+    border: yellowgreen solid 10px;
+    background-color: darkcyan;
+    height: 500px;
+    /* margin: 0 auto; */
+    
+}
+#img3_cont {
+    width: 100%;
+    border: darkmagenta solid 10px;
+    background-color: yellow;
+    height: 500px;
+    /* margin: 0 auto; */
+
+}
+#img4_cont {
+    width: 100%;
+    border: blue solid 10px;
+    background-color: green;
+    height: 500px;
+    /* margin: 0 auto; */
+}
+
+/* below is the Images.....  */
+.img1 {
+    width: 30%;
+    height: 400px;
+    border: maroon solid 10px;
+}
+
+.img2 {
+    width: 90%;
+    height: 400px;
+    border: maroon solid 10px;
+}
+
+.img3 {
+    width: 90%;
+    height: 400px;
+    border: maroon solid 10px;
+
+}
+
+.img4 {
+    width: 90%;
+    height: 400px;
+    border: maroon solid 10px;
+}
